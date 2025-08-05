@@ -1,8 +1,38 @@
-.fail-bg {
-  background-color: #cc0000 !important; /* this color works for my homepage theming, chances are you'll want to change it */
-  /* I have this css transition code uncommented in mine, just personal preference */
-  /* -webkit-transition: all 0.2s linear;
+/*
+ * These colors are meant for a dark Homepage theme.
+ * Class names and values are inspired by https://getbootstrap.com/docs/4.0/components/alerts/
+ */
+
+.alert-danger {
+  background-color: #C8ADAF !important;
+  color: #721c24;
+
+  -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
-  transition: all 0.2s linear; */
+  transition: all 0.2s linear;
+}
+
+.alert-warning {
+  background-color: #CEC3A5 !important;
+  color: #721c24;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.alert-info {
+  background-color: #A8BEC2 !important;
+  color: #721c24;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.observed-for-alerts {
+  border: 1px dashed #777 !important;
 }
