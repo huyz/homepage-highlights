@@ -31,7 +31,7 @@ const WATCH_ITEMS = [
   }),
 
   // Tailscale: "Now" and "…s Ago" are both ok, so exclude everything else using a regular expression
-  new WatchItem('Tailscale' , 1, "=~ ([mhdw]|mo) Ago", {
+  new WatchItem('Tailscale' , 1, "!~ ^Now$|s Ago$", {
     classname: 'alert-warning',
     matchSelector: '[data-name^="TS:"]',
     expectedMatches: 5,
