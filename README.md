@@ -8,3 +8,5 @@ This custom JavaScript (and CSS) highlights cells in Homepage widgets based on t
 - Supports multiple instances of the same service
 
 See [[Feature Request] Improved visibility on service issues by highlighting fields. · gethomepage/homepage · Discussion #4619](https://github.com/gethomepage/homepage/discussions/4619).
+
+![Screenshot of homepage-highlights in action](screenshot.png)
