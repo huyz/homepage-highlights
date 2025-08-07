@@ -15,8 +15,8 @@ const WATCH_ITEMS = [
   new WatchItem('Portainer', 1, ">0"),
   // 2025-08-04 Crowdsec widget is broken
   // https://github.com/gethomepage/homepage/discussions/3472
-  //new WatchItem('Crowdsec', 1, ">0"),
   //new WatchItem('Crowdsec', 0, ">0", {classname: 'alert-warning'}),
+  new WatchItem('Crowdsec', 1, ">0"),
   new WatchItem('Technitium', 1, ">0"),
   new WatchItem('Uptime Kuma', 1, ">0"),
   new WatchItem('Watchtower', 2, ">0"),
