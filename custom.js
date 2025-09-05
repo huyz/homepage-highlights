@@ -8,7 +8,6 @@ const WATCH_ITEMS = [
   new WatchItem('Healthchecks', 1, ">0"),
 
   new WatchItem('Prometheus', 1, ">0"),
-  new WatchItem('Grafana', 2, ">0"),
   new WatchItem('Grafana', 3, ">0"),
 
   new WatchItem('Caddy', 2, ">0"),
